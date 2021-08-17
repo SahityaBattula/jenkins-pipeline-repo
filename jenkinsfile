@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Compile') {
             steps {
-                echo 'compiling source code..'
+                echo 'compiling source code....'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing source code..'
+                echo 'Testing source code....'
             }
         }
         stage('Package') {
             steps {
-                echo 'creating package....'
+                echo 'creating package.....'
             }
         }
 	stage('deploy') {
